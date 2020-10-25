@@ -1,0 +1,18 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type RBook {
+  title: String!
+  createdAt: String!
+  _id: String!
+}
+
+type Query {
+  hello: String!
+  books: [RBook!]!
+}
+
+type Mutation {
+  createBook(title: String!): RBook!
+}
